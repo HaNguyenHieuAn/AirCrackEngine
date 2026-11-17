@@ -1,0 +1,46 @@
+{
+  "system": {
+    "backlight": true,
+    "sound": true,
+    "device_name": "Arduino Uno R3"
+  },
+  "apps": {
+    "native_game": {
+      "difficulty": 2,
+      "high_score": 0
+    },
+    "pc_test": {
+      "echo_lcd": true
+    },
+    "counter": {
+      "saved_count": 0
+    },
+    "wifi_hotspot": {
+      "bg_run": true,
+      "sync_before_host": true,
+      "interface_mode": 3,
+      "dual_card_push": true,
+      "ap_ssid": "Kali_Portable_WiFi",
+      "ap_password": "",
+      "master_server_url": ""
+    },
+    "wifi_pb": {
+      "bg_run": true,
+      "sync_before_host": true,
+      "interface_mode": 3,
+      "dual_card_push": true,
+      "ap_ssid": "Kali_Portable_WiFi",
+      "ap_password": "",
+      "master_server_url": ""
+    },
+    "wifi_set": {
+      "iface_mode": 0,
+      "card_modes": [0, 0, 0, 0]
+    },
+    "aircrack": {
+      "selected_card": 0,
+      "card_modes": [0, 0, 0, 0]
+    }
+  },
+  "last_updated": "2026-10-26 00:00:00"
+}
